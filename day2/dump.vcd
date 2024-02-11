@@ -1,0 +1,274 @@
+$date
+	Sun Feb 11 16:42:49 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var reg 1 ! CLK $end
+$var reg 1 " RST $end
+$var reg 32 # cycle [31:0] $end
+$var reg 1 $ do_cycles $end
+$var reg 1 % do_fsdb $end
+$var reg 1 & do_fst $end
+$var reg 1 ' do_vcd $end
+$var reg 2048 ( filename [2048:1] $end
+$scope module top $end
+$var wire 1 ) CAN_FIRE_RL_display $end
+$var wire 1 * CAN_FIRE_RL_finish $end
+$var wire 1 ! CLK $end
+$var wire 1 " RST_N $end
+$var wire 1 + WILL_FIRE_RL_display $end
+$var wire 1 , WILL_FIRE_RL_finish $end
+$var wire 1 - WILL_FIRE_RL_gen_stimulas $end
+$var wire 1 . \adder$EN_add $end
+$var wire 32 / \adder$add_x [31:0] $end
+$var wire 32 0 \adder$add_y [31:0] $end
+$var wire 1 1 \count$EN $end
+$var wire 32 2 \prev_count$D_IN [31:0] $end
+$var wire 1 3 \prev_count$EN $end
+$var wire 32 4 \count$D_IN [31:0] $end
+$var wire 32 5 \adder$add [31:0] $end
+$var wire 1 6 CAN_FIRE_RL_gen_stimulas $end
+$var reg 32 7 count [31:0] $end
+$var reg 32 8 prev_count [31:0] $end
+$var reg 64 9 v__h218 [63:0] $end
+$var reg 64 : v__h280 [63:0] $end
+$scope module adder $end
+$var wire 1 ; CAN_FIRE_add $end
+$var wire 1 ! CLK $end
+$var wire 1 . EN_add $end
+$var wire 1 < RDY_add $end
+$var wire 1 " RST_N $end
+$var wire 1 = WILL_FIRE_add $end
+$var wire 32 > add [31:0] $end
+$var wire 32 ? add_x [31:0] $end
+$var wire 32 @ add_y [31:0] $end
+$var wire 1 A \res$EN $end
+$var wire 32 B \res$D_IN [31:0] $end
+$var reg 32 C res [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10101010101010101010101010101010 C
+b10101010101010101010101010101011 B
+1A
+b10101010101010101010101010101010 @
+b1 ?
+b10101010101010101010101010101010 >
+1=
+1<
+1;
+bx :
+bx 9
+b10101010101010101010101010101010 8
+b10101010101010101010101010101010 7
+16
+b10101010101010101010101010101010 5
+b10101010101010101010101010101011 4
+13
+b10101010101010101010101010101010 2
+11
+b10101010101010101010101010101010 0
+b1 /
+1.
+1-
+1,
+1+
+1*
+1)
+b110010001110101011011010111000000101110011101100110001101100100 (
+1'
+0&
+0%
+0$
+b0 #
+0"
+x!
+$end
+#1
+b0 5
+b0 >
+b0 C
+b0 8
+b1 4
+b1 B
+b0 0
+b0 @
+b0 2
+b0 7
+1!
+b1 #
+#2
+1"
+#5
+b101 :
+b101 9
+0!
+#10
+b10 4
+b10 B
+b1 0
+b1 @
+b1 2
+b1 7
+b1 5
+b1 >
+b1 C
+1!
+#11
+b10 #
+#15
+b1111 :
+b1111 9
+0!
+#20
+b10 5
+b10 >
+b10 C
+b1 8
+b11 4
+b11 B
+b10 0
+b10 @
+b10 2
+b10 7
+1!
+#21
+b11 #
+#25
+b11001 :
+b11001 9
+0!
+#30
+b10 8
+b100 4
+b100 B
+b11 0
+b11 @
+b11 2
+b11 7
+b11 5
+b11 >
+b11 C
+1!
+#31
+b100 #
+#35
+b100011 :
+b100011 9
+0!
+#40
+b100 5
+b100 >
+b100 C
+b11 8
+b101 4
+b101 B
+b100 0
+b100 @
+b100 2
+b100 7
+1!
+#41
+b101 #
+#45
+b101101 :
+b101101 9
+0!
+#50
+b100 8
+b110 4
+b110 B
+b101 0
+b101 @
+b101 2
+b101 7
+b101 5
+b101 >
+b101 C
+1!
+#51
+b110 #
+#55
+b110111 :
+b110111 9
+0!
+#60
+b110 5
+b110 >
+b110 C
+b101 8
+b111 4
+b111 B
+b110 0
+b110 @
+b110 2
+b110 7
+1!
+#61
+b111 #
+#65
+b1000001 :
+b1000001 9
+0!
+#70
+b110 8
+b1000 4
+b1000 B
+b111 0
+b111 @
+b111 2
+b111 7
+b111 5
+b111 >
+b111 C
+1!
+#71
+b1000 #
+#75
+b1001011 :
+b1001011 9
+0!
+#80
+b1000 5
+b1000 >
+b1000 C
+b111 8
+b1001 4
+b1001 B
+b1000 0
+b1000 @
+b1000 2
+b1000 7
+1!
+#81
+b1001 #
+#85
+b1010101 :
+b1010101 9
+0!
+#90
+b1000 8
+b1010 4
+b1010 B
+b1001 0
+b1001 @
+b1001 2
+b1001 7
+b1001 5
+b1001 >
+b1001 C
+1!
+#91
+b1010 #
+#95
+b1011111 :
+b1011111 9
+0!
