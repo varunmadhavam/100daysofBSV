@@ -2,3 +2,4 @@
 *.v
 sim
 *.vcd
+test/

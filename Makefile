@@ -10,4 +10,4 @@ run_sim:
 	./sim +bscvcd
 
 clean:
-	rm -rf *.bo *.v sim
+	rm -rf *.bo *.v sim *.vcd
