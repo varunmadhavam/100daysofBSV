@@ -2,4 +2,6 @@
 *.v
 sim
 *.vcd
+*.sched
+*.use
 test/
